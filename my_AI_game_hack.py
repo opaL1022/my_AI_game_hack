@@ -7,7 +7,7 @@ import heapq
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 
 # 2. 加載圖片
-image_path = '/Floyd.jpg'  # 圖片文件名
+image_path = './test.jpg'  # 圖片文件名
 img = Image.open(image_path)
 
 # 3. 使用模型進行檢測
